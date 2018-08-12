@@ -1,0 +1,11 @@
+framework module AppPermissions {
+  umbrella header "AppPermissions.h"
+
+  export *
+  module * { export * }
+}
+
+module AppPermissions.Swift {
+    header "AppPermissions-Swift.h"
+    requires objc
+}
